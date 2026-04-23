@@ -90,7 +90,7 @@ export const DEFAULT_SETTINGS: CopilotPluginSettings = {
 			token: null,
 			expiresAt: null,
 		},
-		selectedModel: defaultModels[4],
+		selectedModel: defaultModels[12],
 	},
 	systemPrompt:
 		"You are GitHub Copilot, an AI assistant. You are helping the user with their tasks in Obsidian.",

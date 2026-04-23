@@ -42,19 +42,26 @@ export interface MessageSlice {
 }
 
 export const defaultModels: ModelOption[] = [
-	{ label: "GPT-4o", value: "gpt-4o-2024-08-06" },
-	{ label: "GPT-4.1", value: "gpt-4.1-2025-04-14" },
-	{ label: "GPT-5", value: "gpt-5" },
-	{ label: "GPT-5-mini", value: "gpt-5-mini" },
-	{ label: "GPT-5.2", value: "gpt-5.2" },
-	{ label: "Claude Haiku 4.5", value: "claude-haiku-4.5" },
-	{ label: "Claude Sonnet 4", value: "claude-sonnet-4" },
-	{ label: "Claude Sonnet 4.5", value: "claude-sonnet-4.5" },
-	{ label: "Claude Sonnet 4.6", value: "claude-sonnet-4.6" },
-	{ label: "Claude Opus 4.6", value: "claude-opus-4.6" },
-	{ label: "Gemini 2.5 Pro", value: "gemini-2.5-pro" },
-	{ label: "Gemini 3 Pro", value: "gemini-3-pro-preview" },
-	{ label: "Gemini 3 Flash", value: "gemini-3-flash-preview" },
+	{ label: "Anthropic Claude Haiku 4.5", value: "claude-haiku-4.5" },
+	{ label: "Anthropic Claude Sonnet 4", value: "claude-sonnet-4" },
+	{ label: "Anthropic Claude Sonnet 4.5", value: "claude-sonnet-4.5" },
+	{ label: "Anthropic Claude Sonnet 4.6", value: "claude-sonnet-4.6" },
+	{ label: "Anthropic Claude Opus 4.5", value: "claude-opus-4.5" },
+	{ label: "Anthropic Claude Opus 4.6", value: "claude-opus-4.6" },
+	{
+		label: "Anthropic Claude Opus 4.6 (fast mode) (Preview)",
+		value: "claude-opus-4.6-fast-preview",
+	},
+	{ label: "Anthropic Claude Opus 4.7", value: "claude-opus-4.7" },
+	{ label: "Google Gemini 2.5 Pro", value: "gemini-2.5-pro" },
+	{ label: "Google Gemini 3 Flash (Preview)", value: "gemini-3-flash-preview" },
+	{ label: "Google Gemini 3.1 Pro (Preview)", value: "gemini-3.1-pro-preview" },
+	{ label: "OpenAI GPT-5 mini", value: "gpt-5-mini" },
+	{ label: "OpenAI GPT-5.2", value: "gpt-5.2" },
+	{ label: "OpenAI GPT-5.2-Codex", value: "gpt-5.2-codex" },
+	{ label: "OpenAI GPT-5.3-Codex", value: "gpt-5.3-codex" },
+	{ label: "OpenAI GPT-5.4", value: "gpt-5.4" },
+	{ label: "OpenAI GPT-5.4 mini", value: "gpt-5.4-mini" },
 ];
 
 export const createMessageSlice: StateCreator<
